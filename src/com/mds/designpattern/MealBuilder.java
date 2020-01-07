@@ -2,13 +2,22 @@ package com.mds.designpattern;
 
 public class MealBuilder {
 
-	public Meal prepareVegMeal() {
+	public MealBuilder prepareVegMeal() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 	
-	public Meal prepareNonVegMeal() {
+	public MealBuilder prepareNonVegMeal() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+	
+	public MealBuilder addItem (Item item) {
+		return null;
+	}
+	
+	public Meal build() {
+		return null;
+		
 	}
 }

@@ -14,7 +14,7 @@ public class BuilderPatternDemo {
 		
 		MealBuilder mealBuilder = new MealBuilder();
 
-		Meal vegMeal mealBuilder.prepareVegMeal().build();
+		Meal vegMeal = mealBuilder.prepareVegMeal().build();
 		System.out.println("Veg Meal");
 		vegMeal.showItems();
 		System.out.println("Total Cost: "+ vegMeal.getCost());
@@ -32,13 +32,6 @@ public class BuilderPatternDemo {
 		customMeal.showItems();
 		System.out.println("Total Cost: " + customMeal.getCost());
 
-			25
-
-			26
-
-			27
-
-			Meal mylleal new Meal();
-			millwall
+		Meal myMeal = new Meal();
 	}
 }
