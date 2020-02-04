@@ -26,7 +26,7 @@ public class BuilderPatternDemo {
 
 		Meal customMeal = mealBuilder
 			.prepareNonVegMeal()
-			.addItem(new ChickenBurger())
+			//.addItem(new ChickenBurger())
 			.build();
 		System.out.println("\n\nCustom Meal");
 		customMeal.showItems();

@@ -1,6 +1,8 @@
 package com.mds.abstractfactory.shape;
 
-public class Square implements Shape{
+import com.mds.abstractfactory.Item;
+
+public class Square implements Shape, Item{
 
 	public static final String SQUARE = "SQUARE";
 
@@ -8,9 +10,9 @@ public class Square implements Shape{
 	public void draw() {
 		System.out.println("Draw Square");
 	}
-	/*
+	
 	public String getName() {
 		return SQUARE;
 	}
-	*/
+
 }

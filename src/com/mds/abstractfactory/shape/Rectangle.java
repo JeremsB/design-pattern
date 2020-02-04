@@ -1,6 +1,8 @@
 package com.mds.abstractfactory.shape;
 
-public class Rectangle implements Shape{
+import com.mds.abstractfactory.Item;
+
+public class Rectangle implements Shape, Item{
 	
 	public static final String RECTANGLE = "RECTANGLE";
 
@@ -8,9 +10,9 @@ public class Rectangle implements Shape{
 	public void draw() {
 		System.out.println("Draw rectangle");
 	}
-	/*
+	
 	public String getName() {
 		return RECTANGLE;
 	}
-	*/
+	
 }

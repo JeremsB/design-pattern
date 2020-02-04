@@ -34,4 +34,21 @@ public class ColorFactory extends AbstractFactory{
 		return null;
 	}
 	
+	@Override
+	Item getItem(String item) {
+		
+		if (item.equalsIgnoreCase("RED")) {
+			return new Red();
+		} else if (item.equalsIgnoreCase("GREEN")) {
+			return new Green();
+		} else if (item.equalsIgnoreCase("BLUE")) {
+			return new Blue();
+		} else if (item == null) {
+			return null;
+		} else {
+			return null;
+		}
+		
+	}
+	
 }

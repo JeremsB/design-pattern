@@ -12,4 +12,14 @@ public class FactoryProducer {
 			return null;
 		}
 	}
+	
+	public static Item getItem(String test) {
+		Item itemColor = new ColorFactory().getItem(test);
+		if (itemColor == null) {
+			Item itemShape = new ShapeFactory().getItem(test);
+			return itemShape;
+		} else {
+			return itemColor;
+		}
+	}
 }

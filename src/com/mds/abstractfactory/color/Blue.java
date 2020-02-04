@@ -1,6 +1,8 @@
 package com.mds.abstractfactory.color;
 
-public class Blue implements Color{
+import com.mds.abstractfactory.Item;
+
+public class Blue implements Color, Item{
 
 	public static final String BLUE = "BLUE";
 
@@ -8,9 +10,9 @@ public class Blue implements Color{
 	public void fill() {
 		System.out.println("Color is Blue");
 	}
-	/*
+	
 	public String getName() {
 		return BLUE;
 	}
-	*/
+	
 }
